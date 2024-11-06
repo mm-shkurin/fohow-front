@@ -1,0 +1,50 @@
+.map-conteiner{
+    width: 500px;
+    height: 500px;
+}
+.contact-txt{
+    float: right;
+    width: 50%;
+}
+.content_map{
+    width: 50%;
+}
+.contact_content{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.contact-h1,.contact-txt h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.contact-txt h3{
+    font-size: 25px;
+    display: inline-block;
+}
+.contact-txt p{
+    font-size: 20px;
+}
+@media screen and (max-width: 1411px){
+    .contact_content{
+        min-width: 1308px;
+    }
+    
+}
+@media screen and (max-width: 1137px){
+    .contact_content{
+        min-width: 1106px;
+    }
+    .contact-txt h3{
+        font-size: 19px;
+    }
+    
+    .contact-txt p{
+        font-size: 18px;
+    }
+    .contact-txt{
+        width: 40%;
+    }
+}

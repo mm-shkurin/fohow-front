@@ -1,0 +1,21 @@
+.image_card{
+    text-align: center;
+
+}
+body{
+    font-family: sans-serif;
+}
+.card_h11{
+    font-size: 50px;
+    color:#A48A3F;
+    text-align: center;
+}
+.card_content{
+    margin: 0% 10% 0% 10%;
+    
+}
+.txt-card{
+    padding: 3%;
+    border-radius: 30px;
+    border-style: groove;
+}

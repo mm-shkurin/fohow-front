@@ -1,0 +1,94 @@
+.content{
+    padding: 5%;
+}
+.doctor{
+    box-shadow: 3px 3px 25px 3px rgb(0 0 0 / 12%);
+    border-radius:30px ;
+    display: flex;
+    justify-content: space-evenly;
+    background:linear-gradient(142deg,#FFE800,#FFE800 28%, #9648FD 39%, #9648FD);
+}
+p{
+    font-family: sans-serif;
+    font-size: 22px;
+}
+strong{
+    color:#1B1BB3;
+    font-weight: bold;
+}
+.doctor-h1{
+    font-size: 48px;
+    font-family:sans-serif;
+    color:#1B1BB3;
+
+}
+.doctor-txt p {
+    color: white;
+}
+.doctor-txt{
+    width: 40%;
+    text-align: justify;
+}
+.list-h1{
+    font-size: 40px;
+    color: #1d1df7;
+    text-align: center;
+}
+.omsk-h1{
+    font-size: 48px;
+    color: #e0cf0b;
+}
+.list{
+    padding: 4% 0% 4% 2%;
+}
+
+.video{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 4%;
+}
+.fohow-omsk{
+    border-radius: 30px;
+    box-shadow: 3px 3px 25px 3px rgb(0 0 0 / 12%);
+    padding: 2%;    
+    display: inline-flex;
+    justify-content: space-between;
+}
+.fohow-omsk p{
+    text-align: justify;
+}
+.fohow-omsk_txt{
+    width: 65%;
+}
+.house{
+    width: 30%;
+}
+.shen-h1{
+    font-size: 40px;
+    color:white;
+    text-align: right;
+}
+.shen{
+    margin-top: 4%;
+    box-shadow: 3px 3px 25px 3px rgb(0 0 0 / 12%);
+    border-radius:30px ;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, #5DAED9, #5DAED9 22%, #1DB5BD 0%, #1DB5BD);
+    padding: 4% 0% 4% 0%;
+}
+.shen-txt{
+    width: 50%;
+    text-align: justify;
+}
+.shen-txt p{
+    color: white;
+}
+.yoga{
+    height: 40%;
+}
+@media screen and (max-width: 1224px){
+    .yoga{
+        height: 30%;
+    }
+}

@@ -1,0 +1,169 @@
+.number_1{
+    display: inline-block;
+    border-radius: 30px;
+    height: 410px;
+    margin-right: 3%;
+}
+.Manag{
+    padding: 0% 5% 3% 5%;
+}
+.first-txt{
+    display: inline-block;
+    width: 60%;
+}
+.first-txt p{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #424242;
+}
+.first-txt h1{
+    color:#E1C96B;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.first-txt h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1320px) {
+    .First_manag-content,.Second_manag-content{
+        margin: 0% 0% 2% 0%;
+    }
+    .second-txt p,.first-txt p{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 1183px) {
+    .second-txt p,.first-txt p{
+        font-size: 16px;
+    }
+    .number_2{
+        height: 444px;
+    }
+    .number_3{
+        height: 372px;
+    }
+}
+@media screen and (max-width: 1035px) {
+    .Second_manag-content{
+        padding: 0;
+    }
+    .first-txt h2,.second-txt h2{
+        font-size: 25px;
+    }
+    .first-txt h1,.second-txt h1{
+        font-size: 25px;
+    }
+    .first-txt p,.second-txt p{
+        font-size: 15.5px;
+    }
+    .number_1{
+        height: 360px;
+        margin-right: 2%;
+    }
+    .number_2{
+        margin-left: 1%;
+    }
+}
+@media screen and (max-width: 991px) {
+    
+    .first-txt h2,.second-txt h2{
+        font-size: 22px;
+    }
+    .first-txt h1,.second-txt h1{
+        font-size: 22px;
+    }
+    .first-txt p,.second-txt p{
+        font-size: 15.0px;
+    }
+}
+@media screen and (max-width: 854px) {
+    .first-txt h2,.second-txt h2{
+        font-size: 20px;
+    }
+    .first-txt h1,.second-txt h1{
+        font-size: 20px;
+    }
+    .first-txt p,.second-txt p{
+        font-size: 14.5px;
+    }
+    .number_2{
+        height: 357px;
+        margin-top: 10%;
+        border-radius: 0px;
+        box-shadow: 0px 0px 25px 0px rgba(255, 230, 0, 0.486);
+
+    }
+    .number_1{
+        height: 300px;
+        margin-top:5%;
+        border-radius: 0px;
+        box-shadow: 0px 0px 25px 0px rgba(255, 230, 0, 0.486);
+    }
+    .number_3{
+        margin-top: 5%;
+        height: 350px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 25px 0px rgba(255, 230, 0, 0.486);
+
+    }
+}
+@media screen and (max-width: 786px) {
+    .first-txt h2,.second-txt h2{
+        font-size: 18px;
+    }
+    .first-txt h1,.second-txt h1{
+        font-size: 18px;
+    }
+    .first-txt p,.second-txt p{
+        font-size: 14px;
+    }
+    .Manag{
+        min-width: 698px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .Manag{
+        min-width: 480px;
+    }
+    .number_1{
+        width: 419px;
+        height: 557.5px;
+        display: grid;
+        margin-right: 0px;
+        margin-bottom: 4%;
+    }
+    .first-txt{
+        display: grid;
+        width: 419px;
+        
+    }
+    .first-txt p,.second-txt p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .second-txt{
+        width: 419px;
+        display: grid;
+    }
+    .First_manag-content{
+        margin-bottom: 10%;
+        padding: 0px;
+    }
+    .number_2{
+        width: 419px;
+        height: 630px;
+        display: grid;
+    }
+    .Second_manag-content{
+        margin-bottom: 10%;
+    }
+    .number_3{
+        width: 420px;
+        height: 617px;
+        margin-right: 0px;
+        margin-bottom: 4%;
+    }
+}
