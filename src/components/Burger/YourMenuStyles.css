@@ -126,22 +126,17 @@ nav li:hover > .submenu {
 }
 @media screen and (max-width: 1156px) {
   .topmenu > li > a {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
-@media screen and (max-width: 922px) {
-  .topmenu > li > a {
-    font-size: 12px;
+@media screen and (max-width: 1025px) {
+  nav{
+    padding-right:4% ;
   }
-  
-  .submenu a{
-    font-size: 12px;
+  .header_row {
+    justify-content:space-between;
   }
-}
-
-@media screen and (max-width: 857px) {
-    
     .topmenu {
     display: none;
     flex-direction: column;
@@ -231,6 +226,13 @@ nav li:hover > .submenu {
   .topmenu.burger-open > li > ul.submenu > li.submenu-open > ul.submenu {
     display: block; /* Show nested submenus when the parent is active */
   }
+  
+}
+@media screen and (max-width: 739px) {
+  .header_row{
+    box-shadow: none;
+    border-radius: 0px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -243,4 +245,9 @@ nav li:hover > .submenu {
   .submenu a{
     font-size: 12px;
   }
+}
+@media screen and (max-width: 321px) {
+  nav {
+    padding-top: 13%;
+}
 }

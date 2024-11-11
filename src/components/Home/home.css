@@ -1,94 +1,382 @@
-.content{
+.content {
     padding: 5%;
 }
-.doctor{
+
+.doctor {
     box-shadow: 3px 3px 25px 3px rgb(0 0 0 / 12%);
-    border-radius:30px ;
+    border-radius: 30px;
     display: flex;
     justify-content: space-evenly;
-    background:linear-gradient(142deg,#FFE800,#FFE800 28%, #9648FD 39%, #9648FD);
+    background: linear-gradient(142deg, #FFE800, #FFE800 28%, #9648FD 39%, #9648FD);
 }
-p{
+
+p {
     font-family: sans-serif;
     font-size: 22px;
 }
-strong{
-    color:#1B1BB3;
+
+strong {
+    color: #1B1BB3;
     font-weight: bold;
 }
-.doctor-h1{
+
+.doctor-h1 {
     font-size: 48px;
-    font-family:sans-serif;
-    color:#1B1BB3;
+    font-family: sans-serif;
+    color: #1B1BB3;
 
 }
+
 .doctor-txt p {
     color: white;
 }
-.doctor-txt{
+
+.doctor-txt {
     width: 40%;
     text-align: justify;
 }
-.list-h1{
+
+.list-h1 {
     font-size: 40px;
     color: #1d1df7;
     text-align: center;
 }
-.omsk-h1{
+
+.omsk-h1 {
     font-size: 48px;
     color: #e0cf0b;
 }
-.list{
+
+.list {
     padding: 4% 0% 4% 2%;
 }
 
-.video{
+.content_video-1 {
+    display: none;
+}
+
+.video {
     width: 100%;
     border-radius: 30px;
     margin-bottom: 4%;
 }
-.fohow-omsk{
+
+.fohow-omsk {
     border-radius: 30px;
     box-shadow: 3px 3px 25px 3px rgb(0 0 0 / 12%);
-    padding: 2%;    
+    padding: 2%;
     display: inline-flex;
     justify-content: space-between;
 }
-.fohow-omsk p{
+
+.fohow-omsk p {
     text-align: justify;
 }
-.fohow-omsk_txt{
+
+.fohow-omsk_txt {
     width: 65%;
 }
-.house{
+
+.house {
     width: 30%;
 }
-.shen-h1{
+
+.shen-h1 {
     font-size: 40px;
-    color:white;
+    color: white;
     text-align: right;
 }
-.shen{
+
+.shen {
     margin-top: 4%;
     box-shadow: 3px 3px 25px 3px rgb(0 0 0 / 12%);
-    border-radius:30px ;
+    border-radius: 30px;
     display: flex;
     justify-content: space-evenly;
     background: linear-gradient(90deg, #5DAED9, #5DAED9 22%, #1DB5BD 0%, #1DB5BD);
     padding: 4% 0% 4% 0%;
 }
-.shen-txt{
+
+.shen-txt {
     width: 50%;
     text-align: justify;
 }
-.shen-txt p{
+
+.shen-txt p {
     color: white;
 }
-.yoga{
+
+.yoga {
     height: 40%;
 }
-@media screen and (max-width: 1224px){
-    .yoga{
+
+.row {
+    display: none;
+}
+
+.circle {
+    display: none;
+}
+
+@media screen and (max-width: 1224px) {
+    .yoga {
         height: 30%;
+    }
+}
+
+@media screen and (max-width: 1156px) {
+
+    p {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+
+    p {
+        font-size: 19px;
+    }
+
+    .yoga {
+        width: 40%;
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width: 821px) {
+
+    p {
+        font-size: 17.5px;
+    }
+
+    .yoga {
+        width: 40%;
+        margin-top: 14%;
+    }
+
+    .house {
+        width: 38%;
+        margin-left: 3%;
+    }
+
+    .doctor-img {
+        width: 46%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        display: block;
+        text-align: center;
+    }
+
+    .animate-charcter {
+        text-transform: uppercase;
+        background-image: linear-gradient(-225deg,
+                #231557 0%,
+                #F8D15C 29%,
+                #1BA1F4 67%,
+                #0168E1 100%);
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        display: inline-block;
+        font-size: 150px;
+        margin: 0 auto;
+    }
+
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+
+    .doctor-img {
+        display: none;
+    }
+
+    .doctor {
+        display: block;
+        background: white;
+
+    }
+
+    .doctor-h1 {
+        display: none;
+    }
+
+    .doctor-txt {
+        width: 100%;
+    }
+
+    .doctor-txt p {
+        color: black;
+    }
+
+    .doctor {
+        box-shadow: none;
+        border-radius: 0px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .content {
+        padding: 7%;
+    }
+
+    .content_video {
+        display: none;
+    }
+
+    .content_video-1 {
+        display: block;
+    }
+
+    .video-1 {
+        width: 100%;
+        border-radius: 30px;
+        margin-bottom: 4%;
+        margin-top: 4%;
+    }
+
+    .fohow-omsk {
+        border-radius: 0px;
+        box-shadow: none;
+        padding: 2%;
+        display: block;
+    }
+
+    .fohow-omsk_txt {
+        width: 100%;
+    }
+
+    .house {
+        width: 80%;
+        margin-left: 12%;
+    }
+
+    .omsk-h1 {
+        font-size: 68px;
+        color: #e0cf0b;
+        text-align: center;
+    }
+
+    .circle {
+        display: block;
+        margin-left: 8%;
+        width: 90%;
+        margin-top: 5%;
+    }
+
+    .shen {
+        margin-top: 4%;
+        box-shadow: none;
+        border-radius: 0px;
+        display: block;
+        background: none;
+        padding: 4% 0% 4% 0%;
+    }
+
+    .yoga {
+        display: none;
+    }
+
+    .shen-txt {
+        width: 100%;
+    }
+
+    .shen-txt p {
+        color: black;
+    }
+
+    .shen-h1 {
+        font-size: 50px;
+        color: #1B1BB3;
+        text-align: right;
+    }
+}
+@media screen and (max-width: 739px) {
+    .animate-charcter{
+        font-size: 115px;
+    }
+
+}
+@media screen and (max-width: 525px) {
+
+p {
+    font-size: 18px;
+  }
+
+  .omsk-h1 {
+    font-size: 60px;
+  }
+
+  .shen-h1 {
+    font-size: 44px;
+  }
+
+  .animate-charcter {
+    font-size: 90px;
+  }}
+  @media screen and (max-width: 480px) {
+    .omsk-h1 {
+        font-size: 55px;
+    }
+    .shen-h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .shen-h1 {
+        font-size: 40px;
+    }
+    .omsk-h1 {
+        font-size: 50px;
+    }
+    .list-h1 {
+        font-size: 36px;
+    }
+    .animate-charcter {
+        font-size: 75px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .omsk-h1 {
+        font-size: 45px;
+    }
+    .shen-h1 {
+        font-size: 32px;
+    }
+    .video-1 {
+        border-radius: 15px;
+}
+}
+@media screen and (max-width: 321px) {
+    .omsk-h1 {
+        font-size: 40px;
+    }
+    .shen-h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .list-h1 {
+        font-size: 30px;
+    }
+    .animate-charcter {
+        font-size: 65px;
+    }
+    .logo{
+        width: 75%;
     }
 }
