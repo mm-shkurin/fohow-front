@@ -14,7 +14,7 @@ function Company() {
 
     return (
         <section className='Company'>
-            <div className="Company-content">
+            <div className="content">
                 <div className="One-content">
                     <h2 className='none-pc'>Fohow - это...</h2>
                     <img className="China" src={China} alt="China" />

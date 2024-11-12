@@ -1,20 +1,18 @@
 import './Managament.css'
 import number_1 from './../../img/photo_5224701628685341479_y.jpg'
-import number_2 from './../../img/photo_5224701628685341481_y.jpg'
-import number_3 from './../../img/photo_5224701628685341480_y.jpg'
 import Manag from './manag-list'
 function Managament() {
 
     return (
         <section className='Managament'>
-            <div className="Manag">
-                <div className="First_manag-content">
+            <div className="content">
+                <div className="manag-content">
                     <img src={number_1} className='number_1' alt="number_1" />
-                    <div className="first-txt">
+                    <div className="manag-txt">
                         <h1>ВОРОНКО ЛЮДМИЛА АЛЕКСЕЕВНА</h1>
-                        <br />
+                    
                         <h2>Руководитель представительства,  лидер корпорации Fohow в статусе Алмаз.</h2>
-                        <br />
+                       
                         <p>«Это было в 2012 году. Пришла я в компанию за помощью по здоровью и  
                             моя цель была скорее восстановиться. Но за эти годы я понимаю, что 
                             кроме здоровья я приобрела много друзей, конечно уверенность в себе,  
