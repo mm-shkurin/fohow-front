@@ -27,15 +27,17 @@ const CardDetails = () => {
   return (
     <div>
       {product && (
-        <div className='card_content'>
-          <div className='card_h11'>{<span>{product.name}</span>}</div>
-          <div className='image_card'>
-          {product.images.map((image) => (
-          <img src={`http://fohowomsk.space${image.img}`} alt={image.name} />
-          ))}
-          </div>
-          <div className='txt-card'>
-          <p>{product.description}</p>
+        <div className='content'>
+          <div className="card-inf">
+            <div className='card_h11'>{<span>{product.name}</span>}</div>
+            <div className='image_card'>
+              {product.images.map((image) => (
+                <img className="card-images" src={`http://fohowomsk.space${image.img}`} alt={image.name} />
+              ))}
+            </div>
+            <div className='txt-card'>
+              <p>{product.description}</p>
+            </div>
           </div>
         </div>
       )}
