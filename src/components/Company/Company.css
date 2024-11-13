@@ -381,7 +381,10 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-
+    .New-map {
+        border-radius: 0px 0px 30px 30px;
+        width: 100%;
+    }
     .One-content_txt h1,
     .Two-content_txt h1,
     .owner h1 {
@@ -406,7 +409,9 @@ h1 {
     .Forth-content h1 {
         font-size: 28px;
     }
-
+    .One-content,.Two-content,.Tree-content,.Forth-content,.Five-content,.owner{
+        box-shadow: none;
+    }
     .Tree-content_txt p,
     .One-content_txt p,
     .Two-content_txt p,
@@ -486,6 +491,7 @@ h1 {
     .sport-txt p,
     .owner-txt p {
         font-size: 18px;
+        text-align: justify;
     }
 
     .fohow1 {
