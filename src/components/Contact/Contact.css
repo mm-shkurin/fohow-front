@@ -1,50 +1,217 @@
-.map-conteiner{
+
+.contact-h1{
+    font-size: 40px;
+    text-align: center;
+}
+.contact a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.thrid-content {
+    display: inline-flex;
+}
+
+.map-conteiner {
     width: 500px;
     height: 500px;
 }
-.contact-txt{
-    float: right;
+
+.contact-txt strong {
+    color: black;
+}
+
+.contact-txt {
+    padding-left: 5%;
+    width: 51%;
+    padding-top: 5%;
+}
+
+.content_map {
     width: 50%;
 }
-.content_map{
-    width: 50%;
-}
-.contact_content{
+
+.contact_content {
     padding-top: 3%;
     padding-bottom: 3%;
 }
-.contact-h1,.contact-txt h1{
+
+.contact-h1,
+.contact-txt h1 {
     font-size: 30px;
     text-align: center;
     margin-bottom: 2%;
     font-family: sans-serif;
     font-weight: bold;
 }
-.contact-txt h3{
+
+.contact-txt h3 {
     font-size: 25px;
     display: inline-block;
 }
-.contact-txt p{
+
+.contact-txt p {
     font-size: 20px;
 }
-@media screen and (max-width: 1411px){
-    .contact_content{
-        min-width: 1308px;
-    }
-    
+
+.leaflet-container {
+    border-radius: 30px;
+    box-shadow: 10px 0px 30px 2px rgba(2, 2, 2, 0.2);
+    width: 600px;
+    height: 500px;
+    position: relative;
 }
-@media screen and (max-width: 1137px){
-    .contact_content{
-        min-width: 1106px;
+
+@media screen and (max-width: 1080px) {
+
+    .thrid-content h1 {
+        font-size: 24px;
     }
-    .contact-txt h3{
+
+    .contact h1 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1008px) {
+    .thrid-content {
+        display: block;
+    }
+
+    .leaflet-container {
+        border-radius: 30px;
+        box-shadow: 10px 0px 30px 2px rgba(2, 2, 2, 0.2);
+        width: 700px;
+        height: 530px;
+    }
+
+    .contact-txt {
+        padding-left: 11%;
+    }
+}
+
+@media screen and (max-width: 924px) {
+    .leaflet-container {
+        border-radius: 30px;
+        box-shadow: 10px 0px 30px 2px rgba(2, 2, 2, 0.2);
+        width: 600px;
+        height: 530px;
+    }
+    .contact-txt p {
+        font-size: 21px;
+    }
+
+    .contact-txt h1 {
+        display: none;
+        }
+}
+@media screen and (max-width: 786px) {
+    .leaflet-container {
+        border-radius: 30px;
+        box-shadow: 10px 0px 30px 2px rgba(2, 2, 2, 0.2);
+        width: 550px;
+        height: 530px;
+        margin-left: 0px;
+    }
+    .contact-txt p {
+        font-size: 21px;
+    }
+
+    .contact-txt h1 {
+        display: none;
+        }
+}
+@media screen and (max-width: 769px) {
+    .contact-txt p {
+        font-size: 20px;
+    }
+    .contact-txt {
+        padding-left: 5%;
+        width: 90%;
+    }
+    .leaflet-container {
+        border-radius: 30px;
+        box-shadow: 10px 0px 30px 2px rgba(2, 2, 2, 0.2);
+        width: 500px;
+        height: 530px;
+    }
+    .contact-txt h1 {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 628px) {
+    .contact-txt p {
+        font-size: 20px;
+    }
+    .contact-txt {
+        padding-left: 5%;
+        width: 90%;
+    }
+    .leaflet-container {
+        border-radius: 30px;
+        box-shadow: 10px 0px 30px 2px rgba(2, 2, 2, 0.2);
+        width: 450px;
+        height: 450px;
+    }
+    .contact-txt h1 {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 503px) {
+    .leaflet-container {
+        border-radius: 30px;
+        box-shadow: 10px 0px 30px 2px rgba(2, 2, 2, 0.2);
+        width: 400px;
+        height: 400px;
+    }
+    .contact-txt p {
         font-size: 19px;
     }
-    
-    .contact-txt p{
+}
+
+@media screen and (max-width: 481px) {
+    .leaflet-container {
+        width: 390px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .leaflet-container {
+        width: 350px;
+        height: 300px;
+    }
+
+    .thrid-content {
+        margin-top: 5%;
+        padding-left: 4%;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .leaflet-container {
+        width: 320px;
+        height: 286px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .leaflet-container {
+        width: 280px;
+        height: 220px;
+    }
+
+    .contact p {
         font-size: 18px;
     }
-    .contact-txt{
-        width: 40%;
+
+    .contact h1 {
+        font-size: 19px;
     }
 }

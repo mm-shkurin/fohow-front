@@ -26,11 +26,12 @@ const YourMenuComponent = () => {
             </button>
             <ul className={`topmenu ${isBurgerMenuOpen ? 'burger-open' : ''}`}>
                 <li className={openSubMenus['about'] ? 'submenu-open' : ''}>
-                    <a href="/home" onClick={(e) => { e.preventDefault(); handleSubMenuToggle('about'); }} className={`active ${openSubMenus['about'] ? 'arrow-up' : 'arrow-down'}`}>
+                    <a onClick={(e) => { e.preventDefault(); handleSubMenuToggle('about'); }} className={`active ${openSubMenus['about'] ? 'arrow-up' : 'arrow-down'}`}>
                         О нас
                     </a>
                     <ul className={`submenu ${openSubMenus['about'] ? 'submenu-open' : ''}`}>
                         <li><a href="/manag" className="submenu-link">Руководство</a></li>
+                        <li><a href="/home" className="submenu-link">Главная</a></li>
                     </ul>
                 </li>
                 <li><a href="/company">о компании</a></li>

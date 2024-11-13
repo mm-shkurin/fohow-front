@@ -183,6 +183,16 @@
   text-align: center;
 
 }
+@media screen and (max-width: 1024px) {
+  .card__title {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 892px) {
+  .card__title {
+    font-size: 15.5px;
+  }
+}
 @media screen and (max-width: 768px) {
   .card {
     margin: 20px 2.5% 1px 0;
